@@ -55,81 +55,105 @@ class AqsaMalik:
 <!-- ========================= TECH STACK ========================= -->
 ## 🛠️ Tech Stack
 
-<div align="center">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,js,ts,fastapi,nextjs,react,postgres,mongodb,tensorflow,sklearn,opencv,numpy,pandas,git,github,vercel,cloudflare,vscode&perline=9" alt="skill icons"/>
+</p>
 
-<img src="https://skillicons.dev/icons?i=python,js,ts,fastapi,nextjs,react,postgres,mongodb,tensorflow,sklearn,opencv,numpy,pandas,git,github,vercel,cloudflare,vscode&perline=9" alt="skill icons"/>
+<br/>
 
-</div>
+<h4 align="center">🤖 Agentic AI & LLMs</h4>
 
-### 🤖 Agentic AI & LLMs
-![AI Agents](https://img.shields.io/badge/AI%20Agents-0F2027?style=for-the-badge&logo=probot&logoColor=38BDF8)
-![Digital FTE](https://img.shields.io/badge/Digital%20FTE-312e81?style=for-the-badge&logo=robotframework&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=38BDF8)
-![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG%20Pipelines-6D28D9?style=for-the-badge&logo=probot&logoColor=white)
-![Guardrails](https://img.shields.io/badge/Guardrails-064e3b?style=for-the-badge&logo=shield&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Vector DB](https://img.shields.io/badge/Vector%20Databases-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-![Workflow Automation](https://img.shields.io/badge/Workflow%20Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google%20Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Agents-0F2027?style=for-the-badge&logo=probot&logoColor=38BDF8" alt="AI Agents"/>
+  <img src="https://img.shields.io/badge/Digital%20FTE-312e81?style=for-the-badge&logo=robotframework&logoColor=white" alt="Digital FTE"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=38BDF8" alt="LangGraph"/>
+  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP"/>
+  <img src="https://img.shields.io/badge/RAG%20Pipelines-6D28D9?style=for-the-badge&logo=probot&logoColor=white" alt="RAG Pipelines"/>
+  <img src="https://img.shields.io/badge/Guardrails-16A34A?style=for-the-badge&logo=shield&logoColor=white" alt="Guardrails"/>
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Prompt Engineering"/>
+  <img src="https://img.shields.io/badge/Vector%20Databases-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="Vector Databases"/>
+  <img src="https://img.shields.io/badge/Workflow%20Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="Workflow Automation"/>
+  <img src="https://img.shields.io/badge/Google%20Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini API"/>
+</p>
 
-### 💻 Programming
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+<h4 align="center">💻 Programming</h4>
 
-### ⚙️ Backend & Web
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-0F2027?style=for-the-badge&logo=postman&logoColor=FF6C37)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Twilio](https://img.shields.io/badge/Twilio%20API-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+</p>
 
-### 🗄️ Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Vector DB](https://img.shields.io/badge/Vector%20Databases-6D28D9?style=for-the-badge&logo=databricks&logoColor=white)
+<h4 align="center">⚙️ Backend & Web</h4>
 
-### 📊 Machine Learning
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Supervised](https://img.shields.io/badge/Supervised%20Learning-0F2027?style=for-the-badge)
-![Unsupervised](https://img.shields.io/badge/Unsupervised%20Learning-0F2027?style=for-the-badge)
-![Feature Engineering](https://img.shields.io/badge/Feature%20Engineering-312e81?style=for-the-badge)
-![Model Evaluation](https://img.shields.io/badge/Model%20Evaluation-064e3b?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/REST%20API-0F2027?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="REST API"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js"/>
+  <img src="https://img.shields.io/badge/Twilio%20API-F22F46?style=for-the-badge&logo=twilio&logoColor=white" alt="Twilio API"/>
+</p>
 
-| Family | Algorithms |
-| :-- | :-- |
-| 📈 **Regression** | Linear Regression · Logistic Regression |
-| 🌳 **Tree-based** | Decision Tree · Random Forest |
-| 🎯 **Classical** | SVM · KNN · Naive Bayes |
-| 🧩 **Clustering** | K-Means |
+<h4 align="center">🗄️ Databases</h4>
 
-### 🧠 Deep Learning & Computer Vision
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![ANN](https://img.shields.io/badge/ANN-0F2027?style=for-the-badge)
-![CNN](https://img.shields.io/badge/CNN-0F2027?style=for-the-badge)
-![RNN](https://img.shields.io/badge/RNN-0F2027?style=for-the-badge)
-![LSTM](https://img.shields.io/badge/LSTM-0F2027?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/Vector%20Databases-6D28D9?style=for-the-badge&logo=databricks&logoColor=white" alt="Vector Databases"/>
+</p>
 
-### 📚 Libraries
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+<h4 align="center">📊 Machine Learning</h4>
 
-### 🚀 Tools & Deployment
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![ngrok](https://img.shields.io/badge/ngrok-1F1E37?style=for-the-badge&logo=ngrok&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Supervised%20Learning-0F2027?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="Supervised Learning"/>
+  <img src="https://img.shields.io/badge/Unsupervised%20Learning-0F2027?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="Unsupervised Learning"/>
+  <img src="https://img.shields.io/badge/Linear%20Regression-1f2937?style=for-the-badge" alt="Linear Regression"/>
+  <img src="https://img.shields.io/badge/Logistic%20Regression-1f2937?style=for-the-badge" alt="Logistic Regression"/>
+  <img src="https://img.shields.io/badge/Random%20Forest-064e3b?style=for-the-badge" alt="Random Forest"/>
+  <img src="https://img.shields.io/badge/Decision%20Tree-064e3b?style=for-the-badge" alt="Decision Tree"/>
+  <img src="https://img.shields.io/badge/SVM-312e81?style=for-the-badge" alt="SVM"/>
+  <img src="https://img.shields.io/badge/KNN-312e81?style=for-the-badge" alt="KNN"/>
+  <img src="https://img.shields.io/badge/Naive%20Bayes-312e81?style=for-the-badge" alt="Naive Bayes"/>
+  <img src="https://img.shields.io/badge/K--Means-7c2d12?style=for-the-badge" alt="K-Means"/>
+  <img src="https://img.shields.io/badge/Feature%20Engineering-0F2027?style=for-the-badge" alt="Feature Engineering"/>
+  <img src="https://img.shields.io/badge/Model%20Evaluation-0F2027?style=for-the-badge" alt="Model Evaluation"/>
+</p>
+
+<h4 align="center">🧠 Deep Learning & Computer Vision</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/ANN-1f2937?style=for-the-badge" alt="ANN"/>
+  <img src="https://img.shields.io/badge/CNN-1f2937?style=for-the-badge" alt="CNN"/>
+  <img src="https://img.shields.io/badge/RNN-1f2937?style=for-the-badge" alt="RNN"/>
+  <img src="https://img.shields.io/badge/LSTM-1f2937?style=for-the-badge" alt="LSTM"/>
+</p>
+
+<h4 align="center">📚 Libraries</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
+</p>
+
+<h4 align="center">🚀 Tools & Deployment</h4>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/>
+  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"/>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
+  <img src="https://img.shields.io/badge/ngrok-1F1E37?style=for-the-badge&logo=ngrok&logoColor=white" alt="ngrok"/>
+</p>
 
 ---
 
@@ -227,43 +251,90 @@ pie showData
 
 ---
 
-<!-- ========================= PROJECTS ========================= -->
+<!-- ========================= CAREER & PROJECTS ========================= -->
+## 🧭 Career Timeline
+
+<!-- EDIT: change names and dates below to your real experience -->
+```mermaid
+gantt
+    title Experience
+    dateFormat  YYYY-MM
+    axisFormat  %b %Y
+    section Education
+    BS / Degree (your program)           :done, edu, 2022-09, 2026-06
+    section Learning
+    Machine Learning & Deep Learning     :done, ml, 2024-01, 2025-03
+    CodeAlpha ML Internship              :done, ca, 2025-01, 2025-03
+    section Work
+    Agentic AI Developer (your company / freelance) :active, ai, 2025-04, 2026-12
+```
+
+| Role | Company | Period | Highlights |
+| :-- | :-- | :-- | :-- |
+| 🤖 **Agentic AI Developer** | _[Company / Freelance]_ | _[Mon YYYY – Present]_ | AI agents, MCP servers, RAG, FastAPI deployment |
+| 🧪 **Machine Learning Intern** | CodeAlpha | _[Mon YYYY – Mon YYYY]_ | Disease prediction from medical data, ML model evaluation |
+| 🎓 **Student** | _[University]_ | _[YYYY – YYYY]_ | _[Degree, focus area]_ |
+
+---
+
 ## 🚀 Featured Projects
 
-<!-- Replace each REPO_NAME and description with your real repositories -->
 <table>
   <tr>
-    <td width="50%">
-      <a href="https://github.com/AqsaMalik6/REPO_NAME_1">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=AqsaMalik6&repo=REPO_NAME_1&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" alt="Project 1"/>
-      </a>
+    <td width="50%" valign="top">
+      <h3>🩺 <a href="https://github.com/AqsaMalik6/Disease-Prediction-from-Medical-Data">Disease Prediction from Medical Data</a></h3>
+      <p>ML classification model built as a <b>CodeAlpha internship</b> task to predict disease from patient medical data.</p>
+      <ul>
+      <li>Data cleaning, EDA and feature engineering <!-- EDIT: add rows/features count --></li>
+      <li>Compared classical ML models (e.g. Random Forest, SVM, Logistic Regression) <!-- EDIT: your real models --></li>
+      <li>Evaluated with accuracy, precision, recall and confusion matrix <!-- EDIT: add best score, e.g. 9X% accuracy --></li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
+      </p>
     </td>
-    <td width="50%">
-      <a href="https://github.com/AqsaMalik6/REPO_NAME_2">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=AqsaMalik6&repo=REPO_NAME_2&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" alt="Project 2"/>
-      </a>
+    <td width="50%" valign="top">
+      <h3>📩 <a href="https://github.com/AqsaMalik6/ML-Project">SMS Spam Classifier</a></h3>
+      <p>Machine learning project that detects spam messages from SMS text.</p>
+      <ul>
+      <li>Text preprocessing and vectorization <!-- EDIT: TF-IDF / CountVectorizer --></li>
+      <li>Trained and compared classifiers such as Naive Bayes <!-- EDIT: your real models --></li>
+      <li>Reported precision/recall because spam data is imbalanced <!-- EDIT: add best score --></li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/> <img src="https://img.shields.io/badge/NLP-6D28D9?style=flat-square" alt="NLP"/> <img src="https://img.shields.io/badge/Naive%20Bayes-064e3b?style=flat-square" alt="Naive Bayes"/>
+      </p>
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <a href="https://github.com/AqsaMalik6/REPO_NAME_3">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=AqsaMalik6&repo=REPO_NAME_3&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" alt="Project 3"/>
-      </a>
+    <td width="50%" valign="top">
+      <h3>🤖 [YOUR AGENTIC AI PROJECT NAME]</h3>
+      <p>One line: an autonomous AI agent that automates <b>[sales / support / outreach / scheduling]</b> for <b>[who]</b>.</p>
+      <ul>
+      <li>Handles <b>[task]</b> end to end with tool calling and memory</li>
+      <li>Integrated with <b>[WhatsApp Cloud API / Calendly / Resend / CRM]</b></li>
+      <li>Async task queue with Celery + Redis · guardrails and logging</li>
+      <li>Result: <b>[number, e.g. saves X hours/week]</b></li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+      </p>
     </td>
-    <td width="50%">
-      <a href="https://github.com/AqsaMalik6/REPO_NAME_4">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=AqsaMalik6&repo=REPO_NAME_4&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" alt="Project 4"/>
-      </a>
+    <td width="50%" valign="top">
+      <h3>🔌 [YOUR MCP / RAG PROJECT NAME]</h3>
+      <p>One line: an <b>MCP server / RAG assistant</b> that lets an LLM work with <b>[tool or knowledge base]</b>.</p>
+      <ul>
+      <li>Exposes <b>[N]</b> tools through Model Context Protocol</li>
+      <li>Retrieval with FAISS vector search and cited answers</li>
+      <li>Next.js dashboard deployed on Vercel</li>
+      <li>Result: <b>[what it achieves]</b></li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP"/> <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" alt="FAISS"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"/>
+      </p>
     </td>
   </tr>
 </table>
-
-| Project | What it does | Stack |
-| :-- | :-- | :-- |
-| 🤖 **Project 1** | One line: the business problem it solves | `Python` `FastAPI` `LangGraph` |
-| 🔌 **Project 2** | One line: what it automates | `MCP` `Next.js` `PostgreSQL` |
-| 📚 **Project 3** | One line: what knowledge it answers from | `RAG` `Vector DB` `Gemini` |
-| 📱 **Project 4** | One line: which channel it works on | `Twilio` `WhatsApp` `FastAPI` |
 
 ---
 
