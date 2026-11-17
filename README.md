@@ -75,6 +75,8 @@ class AqsaMalik:
   <img src="https://img.shields.io/badge/Vector%20Databases-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="Vector Databases"/>
   <img src="https://img.shields.io/badge/Workflow%20Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="Workflow Automation"/>
   <img src="https://img.shields.io/badge/Google%20Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini API"/>
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge" alt="Groq"/>
+  <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="FAISS"/>
 </p>
 
 <h4 align="center">💻 Programming</h4>
@@ -94,6 +96,9 @@ class AqsaMalik:
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
   <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js"/>
   <img src="https://img.shields.io/badge/Twilio%20API-F22F46?style=for-the-badge&logo=twilio&logoColor=white" alt="Twilio API"/>
+  <img src="https://img.shields.io/badge/WhatsApp%20Cloud%20API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+  <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" alt="Celery"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
 </p>
 
 <h4 align="center">🗄️ Databases</h4>
@@ -197,40 +202,57 @@ flowchart LR
 
 ---
 
-<!-- ========================= RAG DIAGRAM ========================= -->
-## 📚 A RAG System I Build
+<!-- ========================= AGENT WORKFLOW ========================= -->
+## 🤖 Inside LeadPilot AI — Agent Workflow
+
+> **From first message to booked appointment — fully automated.**
 
 ```mermaid
-flowchart TB
-    subgraph ING[" 📥 Ingestion "]
-        D1[Documents] --> CH[Chunking]
-        CH --> EM[Embeddings]
-        EM --> VS[(Vector DB)]
+flowchart LR
+    subgraph IN[" 📥 Lead Channels "]
+        W([💬 WhatsApp<br/>Cloud API])
+        G([✉️ Gmail])
     end
 
-    subgraph RET[" 🔎 Retrieval "]
-        Q([User Query]) --> HY[Semantic +<br/>Keyword Search]
-        VS --> HY
-        HY --> RR[Re-rank]
+    subgraph CORE[" ⚙️ FastAPI Core "]
+        WH[Webhook<br/>Receiver]
+        Q[(Celery + Redis<br/>Task Queue)]
+        AG{{🧠 AI Agent<br/>Groq LLM}}
     end
 
-    subgraph GEN[" 🧠 Generation "]
-        RR --> LLM[Gemini / LLM]
-        LLM --> GR{Guardrails}
-        GR -->|supported| ANS([Cited Answer])
-        GR -->|unsupported| ABS([Safe Fallback])
+    subgraph ACT[" ✅ Actions "]
+        QL[Lead<br/>Qualification]
+        CRM[(PostgreSQL<br/>CRM)]
+        CAL[📅 Calendly<br/>Scheduling]
+        RS[📧 Resend<br/>Follow-up Email]
     end
 
-    ANS --> EV[Logging & Eval]
-    ABS --> EV
+    W --> WH
+    G --> WH
+    WH --> Q
+    Q --> AG
+    AG --> QL
+    QL -->|qualified| CAL
+    QL -->|every lead| CRM
+    CAL --> RS
+    RS --> CRM
+    AG -.->|reply| W
 
-    classDef box fill:#1f2937,stroke:#38BDF8,color:#e5e7eb
-    classDef store fill:#312e81,stroke:#818cf8,color:#ffffff
-    classDef out fill:#064e3b,stroke:#34d399,color:#ffffff
-    class D1,CH,EM,HY,RR,LLM,EV box
-    class VS store
-    class ANS,ABS,Q,GR out
+    classDef chan fill:#0F2027,stroke:#38BDF8,stroke-width:2px,color:#ffffff
+    classDef core fill:#312e81,stroke:#818cf8,stroke-width:1px,color:#ffffff
+    classDef act fill:#064e3b,stroke:#34d399,stroke-width:1px,color:#ffffff
+    class W,G chan
+    class WH,Q,AG core
+    class QL,CRM,CAL,RS act
 ```
+
+<div align="center">
+
+| 1️⃣ Capture | 2️⃣ Queue | 3️⃣ Reason | 4️⃣ Act | 5️⃣ Track |
+| :--: | :--: | :--: | :--: | :--: |
+| Lead arrives on WhatsApp or Gmail | Webhook hands off to Celery + Redis | Agent qualifies the lead | Books a Calendly slot, sends email | Everything stored in PostgreSQL CRM |
+
+</div>
 
 ---
 
@@ -240,7 +262,7 @@ flowchart TB
 ```mermaid
 pie showData
     title Focus Areas
-    "Agentic AI & Digital FTE" : 35
+    "Agentic AI & Automation" : 35
     "LLM / RAG / MCP" : 25
     "Backend & APIs" : 20
     "Full-Stack Web" : 12
@@ -252,85 +274,77 @@ pie showData
 ---
 
 <!-- ========================= CAREER & PROJECTS ========================= -->
-## 🧭 Career Timeline
+## 💼 Career Experience
 
-<!-- EDIT: change names and dates below to your real experience -->
-```mermaid
-gantt
-    title Experience
-    dateFormat  YYYY-MM
-    axisFormat  %b %Y
-    section Education
-    BS / Degree (your program)           :done, edu, 2022-09, 2026-06
-    section Learning
-    Machine Learning & Deep Learning     :done, ml, 2024-01, 2025-03
-    CodeAlpha ML Internship              :done, ca, 2025-01, 2025-03
-    section Work
-    Agentic AI Developer (your company / freelance) :active, ai, 2025-04, 2026-12
-```
+<div align="center">
 
-| Role | Company | Period | Highlights |
-| :-- | :-- | :-- | :-- |
-| 🤖 **Agentic AI Developer** | _[Company / Freelance]_ | _[Mon YYYY – Present]_ | AI agents, MCP servers, RAG, FastAPI deployment |
-| 🧪 **Machine Learning Intern** | CodeAlpha | _[Mon YYYY – Mon YYYY]_ | Disease prediction from medical data, ML model evaluation |
-| 🎓 **Student** | _[University]_ | _[YYYY – YYYY]_ | _[Degree, focus area]_ |
+| 🏢 Organization | 🎯 Role | 🛠️ Technical Focus |
+| :-- | :-- | :-- |
+| **Fista Solution** | 🤖 Agentic AI Developer | AI agents and full-stack AI applications |
+| **Revotic AI** | 🧪 AI/ML Intern | AI Exam Grading, Multi-Modal RAG, WhatsApp AI Responder |
+| **GENZ Techs** | 🧠 AI/ML Intern | Machine Learning and Python |
+| **Hive Technologies** | 📊 ML/Python Intern | Machine Learning and Python development |
+
+</div>
+
+<sub>*Role titles and highlights are presented from my professional experience. Exact employment dates will be added after verification.*</sub>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Engineering Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🩺 <a href="https://github.com/AqsaMalik6/Disease-Prediction-from-Medical-Data">Disease Prediction from Medical Data</a></h3>
-      <p>ML classification model built as a <b>CodeAlpha internship</b> task to predict disease from patient medical data.</p>
+      <h3>🤖 LeadPilot AI</h3>
+      <p><b>AI-Powered Sales Automation Agent</b></p>
       <ul>
-      <li>Data cleaning, EDA and feature engineering <!-- EDIT: add rows/features count --></li>
-      <li>Compared classical ML models (e.g. Random Forest, SVM, Logistic Regression) <!-- EDIT: your real models --></li>
-      <li>Evaluated with accuracy, precision, recall and confusion matrix <!-- EDIT: add best score, e.g. 9X% accuracy --></li>
+      <li>Automated lead interaction workflows</li>
+      <li>AI-assisted lead qualification</li>
+      <li>WhatsApp and Gmail integration</li>
+      <li>CRM-oriented lead management</li>
+      <li>Automatic appointment scheduling</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square" alt="Groq"/> <img src="https://img.shields.io/badge/Resend-000000?style=flat-square&logo=resend&logoColor=white" alt="Resend"/> <img src="https://img.shields.io/badge/Calendly-006BFF?style=flat-square&logo=calendly&logoColor=white" alt="Calendly"/>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>📩 <a href="https://github.com/AqsaMalik6/ML-Project">SMS Spam Classifier</a></h3>
-      <p>Machine learning project that detects spam messages from SMS text.</p>
+      <h3>📝 AI Exam Grading Suite</h3>
+      <p><b>AI-Assisted Assessment</b></p>
       <ul>
-      <li>Text preprocessing and vectorization <!-- EDIT: TF-IDF / CountVectorizer --></li>
-      <li>Trained and compared classifiers such as Naive Bayes <!-- EDIT: your real models --></li>
-      <li>Reported precision/recall because spam data is imbalanced <!-- EDIT: add best score --></li>
+      <li>Automated assessment workflows</li>
+      <li>AI-assisted answer evaluation</li>
+      <li>Intelligent grading support</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/> <img src="https://img.shields.io/badge/NLP-6D28D9?style=flat-square" alt="NLP"/> <img src="https://img.shields.io/badge/Naive%20Bayes-064e3b?style=flat-square" alt="Naive Bayes"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/AI%20/%20ML-6D28D9?style=flat-square&logo=probot&logoColor=white" alt="AI / ML"/> <img src="https://img.shields.io/badge/LLMs-312e81?style=flat-square" alt="LLMs"/>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 [YOUR AGENTIC AI PROJECT NAME]</h3>
-      <p>One line: an autonomous AI agent that automates <b>[sales / support / outreach / scheduling]</b> for <b>[who]</b>.</p>
+      <h3>🔎 Deep Multi-Modal RAG Summarization</h3>
+      <p><b>Retrieval-Augmented Summarization</b></p>
       <ul>
-      <li>Handles <b>[task]</b> end to end with tool calling and memory</li>
-      <li>Integrated with <b>[WhatsApp Cloud API / Calendly / Resend / CRM]</b></li>
-      <li>Async task queue with Celery + Redis · guardrails and logging</li>
-      <li>Result: <b>[number, e.g. saves X hours/week]</b></li>
+      <li>Multi-modal information retrieval</li>
+      <li>Context-based summarization</li>
+      <li>LLM-powered information processing</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/RAG-6D28D9?style=flat-square&logo=probot&logoColor=white" alt="RAG"/> <img src="https://img.shields.io/badge/LLMs-312e81?style=flat-square" alt="LLMs"/> <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" alt="FAISS"/>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🔌 [YOUR MCP / RAG PROJECT NAME]</h3>
-      <p>One line: an <b>MCP server / RAG assistant</b> that lets an LLM work with <b>[tool or knowledge base]</b>.</p>
+      <h3>🌐 Japan Business Directory</h3>
+      <p><b>Full-Stack Business Directory</b></p>
       <ul>
-      <li>Exposes <b>[N]</b> tools through Model Context Protocol</li>
-      <li>Retrieval with FAISS vector search and cited answers</li>
-      <li>Next.js dashboard deployed on Vercel</li>
-      <li>Result: <b>[what it achieves]</b></li>
+      <li>14 business categories</li>
+      <li>Structured business information</li>
+      <li>SEO, AEO and GEO-oriented organization</li>
       </ul>
       <p>
-        <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP"/> <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" alt="FAISS"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"/>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
       </p>
     </td>
   </tr>
